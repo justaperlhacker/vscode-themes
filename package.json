@@ -1,0 +1,71 @@
+{
+  "name": "vscode-themes",
+  "displayName": "justaperlhacker Themes",
+  "description": "A collection of low-saturation color themes: Miniwinter, Vague, Kanso and Black Metal Gorgoroth.",
+  "version": "0.4.0",
+  "publisher": "justaperlhacker",
+  "author": {
+    "name": "justaperlhacker"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justaperlhacker/vscode-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justaperlhacker/vscode-themes/issues"
+  },
+  "homepage": "https://github.com/justaperlhacker/vscode-themes#readme",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "themes",
+    "dark",
+    "light",
+    "miniwinter",
+    "vague",
+    "kanso",
+    "black-metal",
+    "minimal",
+    "low-saturation"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Miniwinter Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miniwinter-dark-color-theme.json"
+      },
+      {
+        "label": "Miniwinter Light",
+        "uiTheme": "vs",
+        "path": "./themes/miniwinter-light-color-theme.json"
+      },
+      {
+        "label": "Vague",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vague-dark-color-theme.json"
+      },
+      {
+        "label": "Kanso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanso-dark-color-theme.json"
+      },
+      {
+        "label": "Black Metal Gorgoroth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-metal-gorgoroth-dark-color-theme.json"
+      },
+      {
+        "label": "Black Metal Gorgoroth Light",
+        "uiTheme": "vs",
+        "path": "./themes/black-metal-gorgoroth-light-color-theme.json"
+      }
+    ]
+  }
+}
