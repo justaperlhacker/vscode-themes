@@ -5,19 +5,33 @@ Zed and Fresh themes (themselves derived from the Neovim schemes).
 
 ## Included themes
 
-- **Miniwinter Dark / Light** — "icy winter" palette with an azure background.
-- **Vague** — muted, desaturated blue/grey palette.
-- **Kanso** — minimal, calm neutral palette.
-- **Black Metal Gorgoroth Dark / Light** — high-contrast monochrome palette.
+Dark themes with a light counterpart:
+
+- **Miniwinter** / **Miniwinter Light** — "icy winter" palette, azure background.
+- **Black Metal** / **Black Metal Light**
+- **Black Metal Gorgoroth** / **Black Metal Gorgoroth Light**
+- **Miniautumn** / **Miniautumn Light**
+- **Minispring** / **Minispring Light**
+- **Minisummer** / **Minisummer Light**
+- **DankShell Dark** / **DankShell Light** (plus transparent variants)
+
+Dark themes:
+
+- **Batman**, **Fleury**, **Kanso**, **Kimbie Dark**, **Kimbox**, **Kraihnight**
+- **Monochrome** (plus **Green**, **Amber**, **Chroma**)
+- **Naysayer**, **Vague**, **VSCode Red**
 
 ## Install
 
-Build and install the extension locally:
+```sh
+make install          # package + install into VS Code
+```
+
+Or manually:
 
 ```sh
-npm install -g @vscode/vsce
-vsce package
-code --install-extension vscode-themes-*.vsix
+npx @vscode/vsce package
+code --install-extension vscode-themes-*.vsix --force
 ```
 
 Then reload VS Code and select a theme from **Preferences: Color Theme**.
@@ -29,9 +43,15 @@ Host, then pick a theme from **Preferences: Color Theme** in the new window.
 
 ## Adding a theme
 
-1. Drop the color theme JSON into `themes/`.
-2. Register it under `contributes.themes` in `package.json`.
-3. Bump `version`, rebuild, and reinstall.
+From an existing Zed theme file:
+
+```sh
+make import ZED=/path/to/zed-theme.json   # convert + register
+make release VERSION=0.5.0 MSG="Add Foo theme"
+```
+
+Or drop a VS Code theme JSON into `themes/` and run `make sync` to register
+everything in `contributes.themes` automatically.
 
 ## Palettes
 

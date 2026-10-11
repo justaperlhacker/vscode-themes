@@ -2,7 +2,7 @@
   "name": "vscode-themes",
   "displayName": "justaperlhacker Themes",
   "description": "A collection of low-saturation color themes: Miniwinter, Vague, Kanso and Black Metal Gorgoroth.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "publisher": "justaperlhacker",
   "author": {
     "name": "justaperlhacker"
@@ -37,24 +37,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Miniwinter Dark",
+        "label": "Batman",
         "uiTheme": "vs-dark",
-        "path": "./themes/miniwinter-dark-color-theme.json"
+        "path": "./themes/batman-color-theme.json"
       },
       {
-        "label": "Miniwinter Light",
-        "uiTheme": "vs",
-        "path": "./themes/miniwinter-light-color-theme.json"
-      },
-      {
-        "label": "Vague",
+        "label": "Black Metal",
         "uiTheme": "vs-dark",
-        "path": "./themes/vague-dark-color-theme.json"
-      },
-      {
-        "label": "Kanso",
-        "uiTheme": "vs-dark",
-        "path": "./themes/kanso-dark-color-theme.json"
+        "path": "./themes/black-metal-color-theme.json"
       },
       {
         "label": "Black Metal Gorgoroth",
@@ -65,6 +55,131 @@
         "label": "Black Metal Gorgoroth Light",
         "uiTheme": "vs",
         "path": "./themes/black-metal-gorgoroth-light-color-theme.json"
+      },
+      {
+        "label": "Black Metal Light",
+        "uiTheme": "vs",
+        "path": "./themes/black-metal-light-color-theme.json"
+      },
+      {
+        "label": "DankShell Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dankshell-dark-color-theme.json"
+      },
+      {
+        "label": "DankShell Dark Transparent",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dankshell-dark-transparent-color-theme.json"
+      },
+      {
+        "label": "DankShell Light",
+        "uiTheme": "vs",
+        "path": "./themes/dankshell-light-color-theme.json"
+      },
+      {
+        "label": "DankShell Light Transparent",
+        "uiTheme": "vs",
+        "path": "./themes/dankshell-light-transparent-color-theme.json"
+      },
+      {
+        "label": "Fleury",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fleury-color-theme.json"
+      },
+      {
+        "label": "Kanso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanso-dark-color-theme.json"
+      },
+      {
+        "label": "Kimbie Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kimbie-dark-color-theme.json"
+      },
+      {
+        "label": "Kimbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kimbox-color-theme.json"
+      },
+      {
+        "label": "Kraihnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kraihnight-color-theme.json"
+      },
+      {
+        "label": "Miniautumn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miniautumn-color-theme.json"
+      },
+      {
+        "label": "Miniautumn Light",
+        "uiTheme": "vs",
+        "path": "./themes/miniautumn-light-color-theme.json"
+      },
+      {
+        "label": "Minispring",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minispring-color-theme.json"
+      },
+      {
+        "label": "Minispring Light",
+        "uiTheme": "vs",
+        "path": "./themes/minispring-light-color-theme.json"
+      },
+      {
+        "label": "Minisummer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minisummer-color-theme.json"
+      },
+      {
+        "label": "Minisummer Light",
+        "uiTheme": "vs",
+        "path": "./themes/minisummer-light-color-theme.json"
+      },
+      {
+        "label": "Miniwinter Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miniwinter-dark-color-theme.json"
+      },
+      {
+        "label": "Miniwinter Light",
+        "uiTheme": "vs",
+        "path": "./themes/miniwinter-light-color-theme.json"
+      },
+      {
+        "label": "Monochrome Amber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-amber-color-theme.json"
+      },
+      {
+        "label": "Monochrome Chroma",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-chroma-color-theme.json"
+      },
+      {
+        "label": "Monochrome",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-color-theme.json"
+      },
+      {
+        "label": "Monochrome Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-green-color-theme.json"
+      },
+      {
+        "label": "Naysayer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/naysayer-color-theme.json"
+      },
+      {
+        "label": "Vague",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vague-dark-color-theme.json"
+      },
+      {
+        "label": "VSCode Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vscode-red-color-theme.json"
       }
     ]
   }

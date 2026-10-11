@@ -4,11 +4,13 @@ SHELL := /usr/bin/env bash
 VERSION ?=
 MSG ?= Update
 
-.PHONY: help package install bump release push clean
+.PHONY: help package install bump release push clean import sync
 
 help:
 	@echo "justaperlhacker/vscode-themes"
 	@echo
+	@echo "  make import ZED=/path/to/theme.json       Convert a Zed theme -> themes/ and sync manifest"
+	@echo "  make sync                                 Regenerate contributes.themes from themes/"
 	@echo "  make package                              Build the .vsix"
 	@echo "  make install                              Package, then install into VS Code (--force)"
 	@echo "  make bump VERSION=0.5.0 MSG='Add Foo'     Bump package.json + prepend CHANGELOG entry"
@@ -17,6 +19,14 @@ help:
 	@echo "  make clean                                Remove built .vsix files"
 	@echo
 	@echo "Quick iteration: open this folder in VS Code and press F5 (no install needed)."
+
+import:
+	@if [ -z "$(ZED)" ]; then echo "error: ZED is required, e.g. make import ZED=/path/to/theme.json"; exit 2; fi
+	node scripts/zed-to-vscode.mjs "$(ZED)" --force
+	node scripts/sync-manifest.mjs
+
+sync:
+	node scripts/sync-manifest.mjs
 
 package:
 	rm -f vscode-themes-*.vsix

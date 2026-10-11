@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+- Add Batman, Black Metal, DankShell, Fleury, Kimbie, Kimbox, Kraihnight, Miniautumn, Minispring, Minisummer, Monochrome, Naysayer and VSCode Red themes
+
 ## 0.4.0
 
 - Renamed the extension to `justaperlhacker.vscode-themes`.
