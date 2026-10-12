@@ -240,14 +240,8 @@
     "enumMember": "#2c2e33",
     "type": "#2c2e33",
     "typeParameter": "#2c2e33",
-    "keyword": {
-      "foreground": "#2c2e33",
-      "bold": true
-    },
-    "modifier": {
-      "foreground": "#2c2e33",
-      "bold": true
-    },
+    "keyword": "#2c2e33",
+    "modifier": "#2c2e33",
     "comment": {
       "foreground": "#64666c",
       "italic": true
@@ -257,10 +251,7 @@
     "regexp": "#006f44",
     "operator": "#2c2e33",
     "decorator": "#004d84",
-    "label": {
-      "foreground": "#2c2e33",
-      "bold": true
-    }
+    "label": "#2c2e33"
   },
   "tokenColors": [
     {
@@ -410,8 +401,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#2c2e33",
-        "fontStyle": "bold"
+        "foreground": "#2c2e33"
       }
     },
     {
@@ -419,8 +409,7 @@
         "entity.name.label"
       ],
       "settings": {
-        "foreground": "#2c2e33",
-        "fontStyle": "bold"
+        "foreground": "#2c2e33"
       }
     },
     {
@@ -430,8 +419,7 @@
         "markup.heading entity.name"
       ],
       "settings": {
-        "foreground": "#804e00",
-        "fontStyle": "bold"
+        "foreground": "#804e00"
       }
     },
     {

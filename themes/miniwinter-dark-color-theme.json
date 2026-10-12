@@ -290,7 +290,7 @@
     "type": "#d8d4cd",
     "typeParameter": "#d8d4cd",
     "namespace": "#d8d4cd",
-    "keyword": { "foreground": "#d8d4cd", "bold": true },
+    "keyword": "#d8d4cd",
     "modifier": "#d8d4cd",
     "comment": { "foreground": "#98948e", "italic": true },
     "string": "#b8e1c1",
@@ -328,7 +328,7 @@
     },
     {
       "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#d8d4cd", "fontStyle": "bold" }
+      "settings": { "foreground": "#d8d4cd" }
     },
     {
       "scope": ["keyword.operator", "punctuation.definition.operator"],
@@ -380,11 +380,11 @@
     },
     {
       "scope": ["entity.name.section", "markup.heading", "markup.heading entity.name"],
-      "settings": { "foreground": "#b3daf9", "fontStyle": "bold" }
+      "settings": { "foreground": "#b3daf9" }
     },
     {
       "scope": ["entity.name.label"],
-      "settings": { "foreground": "#d8d4cd", "fontStyle": "bold" }
+      "settings": { "foreground": "#d8d4cd" }
     },
     {
       "scope": ["punctuation", "punctuation.separator", "punctuation.terminator", "meta.brace", "punctuation.section"],

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.3
+
+- Remove bold styles from all mini* themes
+
 ## 0.8.2
 
 - Make comments italic in all themes (tokenColors + semantic)
