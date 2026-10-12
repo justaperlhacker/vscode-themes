@@ -2,7 +2,7 @@
   "name": "vscode-themes",
   "displayName": "justaperlhacker Themes",
   "description": "A collection of low-saturation color themes: Miniwinter, Vague, Kanso and Black Metal Gorgoroth.",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "publisher": "justaperlhacker",
   "author": {
     "name": "justaperlhacker"
@@ -60,6 +60,11 @@
         "label": "Black Metal Light",
         "uiTheme": "vs",
         "path": "./themes/black-metal-light-color-theme.json"
+      },
+      {
+        "label": "Chocolatier",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolatier-color-theme.json"
       },
       {
         "label": "DankShell Dark",

@@ -17,7 +17,7 @@ Dark themes with a light counterpart:
 
 Dark themes:
 
-- **Batman**, **Doom Rouge**, **Fleury**, **Kanso**, **Kimbie2 Dark**, **Kimbox**, **Kraihnight**
+- **Batman**, **Chocolatier**, **Doom Rouge**, **Fleury**, **Kanso**, **Kimbie2 Dark**, **Kimbox**, **Kraihnight**
 - **Monochrome** (plus **Green**, **Amber**, **Chroma**)
 - **Naysayer**, **Vague**, **VSCode Red**
 

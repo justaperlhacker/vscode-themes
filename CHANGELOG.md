@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0
+
+- Add Chocolatier theme
+
 ## 0.6.0
 
 - Rename Kimbie Dark to Kimbie2 Dark and add Doom Rouge theme
