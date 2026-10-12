@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.5
+
+- Make keywords italic in all Monochrome themes
+
 ## 0.8.4
 
 - Make keywords italic in all mini* themes

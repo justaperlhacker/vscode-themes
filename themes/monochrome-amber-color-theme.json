@@ -243,8 +243,14 @@
     "type": "#bc7100",
     "typeParameter": "#bc7100",
     "namespace": "#bc7100",
-    "keyword": "#bc7100",
-    "modifier": "#bc7100",
+    "keyword": {
+      "foreground": "#bc7100",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#bc7100",
+      "italic": true
+    },
     "comment": {
       "foreground": "#925800",
       "italic": true
@@ -475,7 +481,8 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#bc7100"
+        "foreground": "#bc7100",
+        "fontStyle": "italic"
       }
     },
     {
