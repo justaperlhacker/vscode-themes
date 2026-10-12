@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0
+
+- Rename Kimbie Dark to Kimbie2 Dark and add Doom Rouge theme
+
 ## 0.5.0
 
 - Add Batman, Black Metal, DankShell, Fleury, Kimbie, Kimbox, Kraihnight, Miniautumn, Minispring, Minisummer, Monochrome, Naysayer and VSCode Red themes
