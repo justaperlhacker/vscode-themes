@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.6
+
+- Make keywords italic in Kraihnight theme
+
 ## 0.8.5
 
 - Make keywords italic in all Monochrome themes
