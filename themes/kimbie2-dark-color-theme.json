@@ -242,7 +242,10 @@
     "typeParameter": "#f06431",
     "keyword": "#98676a",
     "modifier": "#98676a",
-    "comment": "#a57a4c",
+    "comment": {
+      "foreground": "#a57a4c",
+      "italic": true
+    },
     "string": "#889b4a",
     "number": "#f79a32",
     "regexp": "#7e602c",

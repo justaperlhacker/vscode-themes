@@ -245,7 +245,10 @@
     "namespace": "#bc7100",
     "keyword": "#bc7100",
     "modifier": "#bc7100",
-    "comment": "#925800",
+    "comment": {
+      "foreground": "#925800",
+      "italic": true
+    },
     "string": "#ffdda9",
     "number": "#fff1dd",
     "regexp": "#ffdda9",

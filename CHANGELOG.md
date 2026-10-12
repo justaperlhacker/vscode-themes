@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.2
+
+- Make comments italic in all themes (tokenColors + semantic)
+
 ## 0.8.1
 
 - Remove bold styles from Kraihnight theme

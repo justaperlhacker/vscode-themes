@@ -245,7 +245,10 @@
     "namespace": "#11ae0e",
     "keyword": "#11ae0e",
     "modifier": "#11ae0e",
-    "comment": "#0d870b",
+    "comment": {
+      "foreground": "#0d870b",
+      "italic": true
+    },
     "string": "#b1f9af",
     "number": "#e0fce0",
     "regexp": "#b1f9af",

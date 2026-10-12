@@ -441,8 +441,13 @@ function buildSemantic(syntax) {
   for (const [sem, zed] of Object.entries(SEMANTIC)) {
     const e = syntax[zed];
     if (!e || !e.color) continue;
-    if (typeof e.font_weight === 'number' && e.font_weight >= 600) {
-      out[sem] = { foreground: e.color, bold: true };
+    const italic = e.font_style === 'italic';
+    const bold = typeof e.font_weight === 'number' && e.font_weight >= 600;
+    if (italic || bold) {
+      const v = { foreground: e.color };
+      if (italic) v.italic = true;
+      if (bold) v.bold = true;
+      out[sem] = v;
     } else {
       out[sem] = e.color;
     }

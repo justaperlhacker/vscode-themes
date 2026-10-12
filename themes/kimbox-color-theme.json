@@ -257,7 +257,10 @@
     },
     "keyword": "#EF1D55",
     "modifier": "#EF1D55",
-    "comment": "#7E602C",
+    "comment": {
+      "foreground": "#7E602C",
+      "italic": true
+    },
     "string": "#FF9500",
     "number": "#98676A",
     "regexp": "#FF5813",

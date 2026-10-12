@@ -248,7 +248,10 @@
       "foreground": "#2c2e33",
       "bold": true
     },
-    "comment": "#64666c",
+    "comment": {
+      "foreground": "#64666c",
+      "italic": true
+    },
     "string": "#006d3f",
     "number": "#600051",
     "regexp": "#007f86",
