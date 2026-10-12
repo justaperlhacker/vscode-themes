@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0
+
+- Fix bold JSON keys in Kimbox and Kraihnight (support.type prefix match)
+
 ## 0.7.0
 
 - Add Chocolatier theme

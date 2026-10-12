@@ -426,6 +426,13 @@ function buildTokenColors(syntax) {
     const settings = tokenSettings(syntax[zed]);
     if (settings) out.push({ scope: scopes, settings });
   }
+  // JSON keys use the scope `support.type.property-name.json`, which also
+  // matches a bare `support.type` selector. Re-assert the property color last
+  // so a bold `support.type` rule can't make JSON keys bold.
+  const prop = tokenSettings(syntax.property);
+  if (prop) {
+    out.push({ scope: ['support.type.property-name', 'support.type.property-name.json'], settings: prop });
+  }
   return out;
 }
 

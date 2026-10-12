@@ -608,6 +608,15 @@
       "settings": {
         "foreground": "#f9f9f9"
       }
+    },
+    {
+      "scope": [
+        "support.type.property-name",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#899ab4"
+      }
     }
   ]
 }
