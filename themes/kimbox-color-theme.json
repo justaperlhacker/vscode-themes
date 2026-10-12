@@ -255,8 +255,14 @@
       "foreground": "#819C3B",
       "bold": true
     },
-    "keyword": "#EF1D55",
-    "modifier": "#EF1D55",
+    "keyword": {
+      "foreground": "#EF1D55",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#EF1D55",
+      "italic": true
+    },
     "comment": {
       "foreground": "#7E602C",
       "italic": true
@@ -419,7 +425,8 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#EF1D55"
+        "foreground": "#EF1D55",
+        "fontStyle": "italic"
       }
     },
     {

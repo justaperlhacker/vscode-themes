@@ -240,8 +240,14 @@
     "enumMember": "#db7132",
     "type": "#ffde4b",
     "typeParameter": "#ffde4b",
-    "keyword": "#b96a3d",
-    "modifier": "#b96a3d",
+    "keyword": {
+      "foreground": "#b96a3d",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#b96a3d",
+      "italic": true
+    },
     "comment": {
       "foreground": "#514a46",
       "italic": true

@@ -240,8 +240,14 @@
     "enumMember": "#edb211",
     "type": "#edb211",
     "typeParameter": "#edb211",
-    "keyword": "#f0c674",
-    "modifier": "#f0c674",
+    "keyword": {
+      "foreground": "#f0c674",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#f0c674",
+      "italic": true
+    },
     "comment": {
       "foreground": "#666666",
       "italic": true
@@ -401,7 +407,8 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#f0c674"
+        "foreground": "#f0c674",
+        "fontStyle": "italic"
       }
     },
     {

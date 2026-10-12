@@ -290,8 +290,8 @@
     "type": "#9b8d7f",
     "typeParameter": "#9b8d7f",
     "namespace": "#9b8d7f",
-    "keyword": "#999999",
-    "modifier": "#999999",
+    "keyword": { "foreground": "#999999", "italic": true },
+    "modifier": { "foreground": "#999999", "italic": true },
     "comment": { "foreground": "#505050", "italic": true },
     "string": "#ddeecc",
     "number": "#aaaaaa",
@@ -340,7 +340,7 @@
     },
     {
       "scope": ["keyword", "storage", "storage.type", "storage.modifier"],
-      "settings": { "foreground": "#999999" }
+      "settings": { "foreground": "#999999", "fontStyle": "italic" }
     },
     {
       "scope": ["keyword.operator", "punctuation.definition.operator"],

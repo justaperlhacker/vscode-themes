@@ -240,8 +240,14 @@
     "enumMember": "#a04b14",
     "type": "#795f00",
     "typeParameter": "#795f00",
-    "keyword": "#e78a53",
-    "modifier": "#e78a53",
+    "keyword": {
+      "foreground": "#e78a53",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#e78a53",
+      "italic": true
+    },
     "comment": {
       "foreground": "#b4b1b0",
       "italic": true

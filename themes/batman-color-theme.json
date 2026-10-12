@@ -243,8 +243,14 @@
     "type": "#909495",
     "typeParameter": "#909495",
     "namespace": "#909495",
-    "keyword": "#f4fd22",
-    "modifier": "#f4fd22",
+    "keyword": {
+      "foreground": "#f4fd22",
+      "italic": true
+    },
+    "modifier": {
+      "foreground": "#f4fd22",
+      "italic": true
+    },
     "comment": {
       "foreground": "#62605f",
       "italic": true
@@ -475,7 +481,8 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#f4fd22"
+        "foreground": "#f4fd22",
+        "fontStyle": "italic"
       }
     },
     {

@@ -242,11 +242,13 @@
     "typeParameter": "#ffc9c9",
     "keyword": {
       "foreground": "#ff7778",
-      "bold": true
+      "bold": true,
+      "italic": true
     },
     "modifier": {
       "foreground": "#ff7778",
-      "bold": true
+      "bold": true,
+      "italic": true
     },
     "comment": {
       "foreground": "#a8766c",
@@ -408,7 +410,7 @@
       ],
       "settings": {
         "foreground": "#ff7778",
-        "fontStyle": "bold"
+        "fontStyle": "bold italic"
       }
     },
     {
