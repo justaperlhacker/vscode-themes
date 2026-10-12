@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.4
+
+- Make keywords italic in all mini* themes
+
 ## 0.8.3
 
 - Remove bold styles from all mini* themes
