@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.1
+
+- Remove bold styles from Kraihnight theme
+
 ## 0.8.0
 
 - Fix bold JSON keys in Kimbox and Kraihnight (support.type prefix match)

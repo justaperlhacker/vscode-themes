@@ -233,28 +233,13 @@
     "variable.readonly": "#d6b67f",
     "property": "#899ab4",
     "function": "#ab8252",
-    "class": {
-      "foreground": "#d87d5f",
-      "bold": true
-    },
-    "struct": {
-      "foreground": "#d87d5f",
-      "bold": true
-    },
-    "interface": {
-      "foreground": "#d87d5f",
-      "bold": true
-    },
+    "class": "#d87d5f",
+    "struct": "#d87d5f",
+    "interface": "#d87d5f",
     "enum": "#d87d5f",
     "enumMember": "#d87d5f",
-    "type": {
-      "foreground": "#d87d5f",
-      "bold": true
-    },
-    "typeParameter": {
-      "foreground": "#d87d5f",
-      "bold": true
-    },
+    "type": "#d87d5f",
+    "typeParameter": "#d87d5f",
     "keyword": "#d6b67f",
     "modifier": "#d6b67f",
     "comment": "#726d73",
@@ -431,8 +416,7 @@
         "markup.heading entity.name"
       ],
       "settings": {
-        "foreground": "#ab8252",
-        "fontStyle": "bold"
+        "foreground": "#ab8252"
       }
     },
     {
@@ -461,8 +445,7 @@
         "entity.name.class"
       ],
       "settings": {
-        "foreground": "#d87d5f",
-        "fontStyle": "bold"
+        "foreground": "#d87d5f"
       }
     },
     {
