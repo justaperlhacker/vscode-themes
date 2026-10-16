@@ -352,8 +352,7 @@
         "constant.language.boolean"
       ],
       "settings": {
-        "foreground": "#7ad0c6",
-        "fontStyle": "bold"
+        "foreground": "#7ad0c6"
       }
     },
     {
@@ -500,8 +499,7 @@
         "markup.heading entity.name"
       ],
       "settings": {
-        "foreground": "#d1b897",
-        "fontStyle": "bold"
+        "foreground": "#d1b897"
       }
     },
     {
@@ -574,8 +572,7 @@
         "support.class.builtin"
       ],
       "settings": {
-        "foreground": "#8cde94",
-        "fontStyle": "bold"
+        "foreground": "#8cde94"
       }
     },
     {
@@ -734,8 +731,7 @@
         "markup.bold"
       ],
       "settings": {
-        "foreground": "#d1b897",
-        "fontStyle": "bold"
+        "foreground": "#d1b897"
       }
     },
     {
