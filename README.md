@@ -1,13 +1,14 @@
 # justaperlhacker Themes
 
 A collection of low-saturation VS Code color themes, ported from the matching
-Zed and Fresh themes (themselves derived from the Neovim schemes).
+Zed and Fresh themes (themselves derived from the Neovim schemes). **Sequoia
+Monochrome Dark** is ported from the upstream [Sequoia theme][sequoia].
 
 ## Included themes
 
 Dark themes with a light counterpart:
 
-- **Miniwinter** / **Miniwinter Light** — "icy winter" palette, azure background.
+- **Miniwinter Dark** / **Miniwinter Light** — "icy winter" palette, azure background.
 - **Black Metal** / **Black Metal Light**
 - **Black Metal Gorgoroth** / **Black Metal Gorgoroth Light**
 - **Miniautumn** / **Miniautumn Light**
@@ -20,6 +21,7 @@ Dark themes:
 - **Batman**, **Chocolatier**, **Doom Rouge**, **Fleury**, **Kanso**, **Kimbie2 Dark**, **Kimbox**, **Kraihnight**
 - **Monochrome** (plus **Green**, **Amber**, **Chroma**)
 - **Naysayer**, **Vague**, **VSCode Red**
+- **Sequoia Monochrome Dark** — port of the upstream Sequoia "Monochrome Dark"
 
 ## Install
 
@@ -111,3 +113,21 @@ everything in `contributes.themes` automatically.
 | Functions  | `#888888` | `#696969` |
 | Types      | `#9b8d7f` | `#655443` |
 | Comments   | `#505050` | `#6e685d` |
+
+### Sequoia Monochrome Dark
+
+| Role       | Value     |
+| ---------- | --------- |
+| Background | `#0f1014` |
+| Surface    | `#111216` |
+| Foreground | `#868690` |
+| Cursor     | `#7c829d` |
+| Accent     | `#b6bac8` |
+| Keywords   | `#626983` |
+| Strings    | `#d3d5de` |
+| Numbers    | `#626983` |
+| Functions  | `#999eb2` |
+| Types      | `#7c829d` |
+| Comments   | `#43444d` |
+
+[sequoia]: https://github.com/Sequoia-Theme

@@ -182,6 +182,11 @@
         "path": "./themes/naysayer-color-theme.json"
       },
       {
+        "label": "Sequoia Monochrome Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sequoia-monochrome-dark-color-theme.json"
+      },
+      {
         "label": "Vague",
         "uiTheme": "vs-dark",
         "path": "./themes/vague-dark-color-theme.json"
